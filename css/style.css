@@ -160,14 +160,16 @@ animation-timing-function:inherit;
 }
 .first-up{
     position: fixed;
+    color: wheat;
     width: 40px;
     height: 40px;
     right: 25px;
     bottom: 15px;
-    border-radius: 20px;
-    background-color: rgb(164, 0, 0);
-    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid wheat;
     display: none;
+    z-index: 10;
 }
 .up{
     font-size: 20px;
