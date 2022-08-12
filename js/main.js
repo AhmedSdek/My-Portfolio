@@ -49,3 +49,17 @@ window.onscroll = function(){
 
     }
 };
+$(window).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() >= 400){
+            $('.first-up').fadeIn(1000);
+        }else{
+            $(".first-up").fadeOut();
+        }
+    })
+});
+$(window).ready(function(){
+    $(".first-up").on('click', function(){
+        $(window).scrollTop(0);
+    });
+});
