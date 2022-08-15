@@ -132,7 +132,7 @@ animation-timing-function:inherit;
         transition: 0.5s;
     }
     .header-area .links.open li a:hover{
-        letter-spacing: 20px;
+        letter-spacing: 10px;
     }
     .header-area .toggle-menu{
         display: block;
