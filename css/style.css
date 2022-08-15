@@ -229,7 +229,7 @@ animation-timing-function:inherit;
 }
 @media (max-width : 770px) {
     .heder-text h1{
-        font-size: 50px;
+        font-size: 45px;
         
     }
     .heder-text h5{
@@ -238,7 +238,7 @@ animation-timing-function:inherit;
 }
 @media (max-width : 576px) {
     .heder-text h1{
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 .heder-text button{
@@ -304,11 +304,11 @@ animation-timing-function:inherit;
     }
 }
 .about h1{
-    font-size: 50px;
+    font-size: 55px;
 }
 @media (max-width : 770px) {
     .about h1{
-        font-size: 25px;
+        font-size: 30px;
     }
     .about-photo img{
         position: relative;
