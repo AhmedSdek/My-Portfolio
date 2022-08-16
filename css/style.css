@@ -78,6 +78,7 @@ text-transform: capitalize;
     position: relative;
     font-size: 30px;
     cursor: pointer;
+    margin-right: 5px
 }
 .header-area .toggle-menu.menu-active::after{
 content: "";
